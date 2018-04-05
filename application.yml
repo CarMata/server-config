@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo-configserver
+
+server:
+  port: 8072
+  
