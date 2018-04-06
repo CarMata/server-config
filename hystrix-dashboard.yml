@@ -3,14 +3,13 @@ server:
      
 turbine:
   aggregator:
-    clusterConfig: gateway-zuul
+    clusterConfig: GATEWAY-ZUUL
   appConfig: gateway-zuul
  
 
 eureka:
   instance:
-    hostname: localhost
-  client:  
-    registerWithEureka: false
+    hostname:localhost
+  client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
