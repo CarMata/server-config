@@ -1,5 +1,5 @@
 server:
-  port: 4444
+  port: 3333
      
 turbine:
   aggregator:
