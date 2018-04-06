@@ -7,11 +7,11 @@ spring:
 zuul:
   routes:
     a:
-      path: /a/test-a/**
+      path: /a/**
       serviceId: MICROA-SERVICE
       stripPrefix: false
     b:
-      path: /b/test-b/**
+      path: /b/**
       serviceId: MICROB-SERVICE
       stripPrefix: false                         
     
