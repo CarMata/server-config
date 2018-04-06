@@ -1,8 +1,5 @@
 server:  
   port: 8070
-spring:  
-  application:
-    name: eureka-server 
  
 logging:  
   file: logs/${spring.application.name}.log
@@ -10,3 +7,5 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     com.atsistemas: 'DEBUG'  
+    
+
