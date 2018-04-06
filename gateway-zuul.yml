@@ -1,15 +1,24 @@
 
+server:
+  port: 8080
+
 zuul:
   routes:
-    suma:
-      path: /rest/suma/**
-      serviceId: SUMA-SERVER
+    a:
+      path: /billing/microa/**
+      serviceId: MICROA-SERVICE
       stripPrefix: false
-    resta:
-      path: /rest/resta/**
-      serviceId: RESTA-SERVER
+    b:
+      path: /billing/microb/**
+      serviceId: MICROB-SERVICE
       stripPrefix: false                         
     
+    c:
+      path: /billing/microc/**
+      serviceId: MICROC-SERVICE
+      stripPrefix: false                         
+
+
 
 eureka:
   client:
@@ -17,5 +26,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
  
-server:
-  port: 8080
+ 
+  logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'  
