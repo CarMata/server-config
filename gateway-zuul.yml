@@ -12,12 +12,16 @@ zuul:
     b:
       path: /test-b/**
       serviceId: microb-service
-      stripPrefix: false                         
+      stripPrefix: false
+      
+    c:
+      path: /test-c/**
+      serviceId: microb-service
+      stripPrefix: false       
     
 
-eureka:
+eureka:  
   client:
-    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
  
