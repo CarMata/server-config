@@ -1,14 +1,9 @@
 server:  
-  port: 8888
+  port: 8070
 spring:  
   application:
-    name: configserver  
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/atSistemas/cygnus-config
-
+    name: eureka-server 
+ 
 logging:  
   file: logs/${spring.application.name}.log
   level:
