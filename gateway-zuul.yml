@@ -5,12 +5,12 @@ server:
 zuul:
   routes:
     a:
-      path: /a/**
+      path: /test-a/**
       serviceId: microa-service
       stripPrefix: false
       
     b:
-      path: /b/**
+      path: /test-b/**
       serviceId: microb-service
       stripPrefix: false                         
     
