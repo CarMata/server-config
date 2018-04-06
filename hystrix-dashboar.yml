@@ -1,7 +1,16 @@
 server:
   port: 4444
-  
-eureka:  
-  client:
+     
+turbine:
+  aggregator:
+    clusterConfig: ZUUL-SERVER
+  appConfig: ZUUL-SERVER
+ 
+
+eureka:
+  instance:
+    hostname: localhost
+  client:  
+    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
