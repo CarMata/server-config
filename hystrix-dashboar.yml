@@ -3,8 +3,8 @@ server:
      
 turbine:
   aggregator:
-    clusterConfig: ZUUL-SERVER
-  appConfig: ZUUL-SERVER
+    clusterConfig: gateway-zuul
+  appConfig: gateway-zuul
  
 
 eureka:
