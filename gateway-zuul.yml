@@ -1,0 +1,21 @@
+
+zuul:
+  routes:
+    suma:
+      path: /rest/suma/**
+      serviceId: SUMA-SERVER
+      stripPrefix: false
+    resta:
+      path: /rest/resta/**
+      serviceId: RESTA-SERVER
+      stripPrefix: false                         
+    
+
+eureka:
+  client:
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+ 
+server:
+  port: 8080
