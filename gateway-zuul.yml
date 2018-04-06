@@ -5,7 +5,7 @@ server:
 zuul:
   routes:
     a:
-      path: /billing/microa/**
+      path: /test/**
       serviceId: MICROA-SERVICE
       stripPrefix: false
     b:
@@ -14,7 +14,7 @@ zuul:
       stripPrefix: false                         
     
     c:
-      path: /billing/microc/**
+      path: /test/**
       serviceId: MICROC-SERVICE
       stripPrefix: false                         
 
