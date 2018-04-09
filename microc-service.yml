@@ -1,15 +1,19 @@
-server:  
-  port: 8073   
-
-
+spring:
+    application:
+      microc-service
+    
+    datasource:
+        platform: postgres
+        url: jdbc:postgresql://localhost:5432/dbplanilla
+        username: postgres
+        password: toor    
+        driverClassName: org.postgresql.Driver    
+    
+server:
+  port: 8073 
+  
+  
 eureka:  
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-      
-logging:  
-  file: logs/${spring.application.name}.log
-  level:
-    com.netflix.discovery: 'OFF'
-    org.springframework.cloud: 'DEBUG'
-    com.atsistemas: 'DEBUG'  
