@@ -1,9 +1,4 @@
-    datasource:
-        platform: postgres
-        url: jdbc:postgresql://localhost:5432/dbplanilla
-        username: postgres
-        password: toor    
-        driverClassName: org.postgresql.Driver    
+
     
 server:
   port: 8073 
@@ -13,3 +8,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+      
+spring:
+    datasource:
+        platform: postgres
+        url: jdbc:postgresql://localhost:5432/dbplanilla
+        username: postgres
+        password: toor    
+        driverClassName: org.postgresql.Driver    
