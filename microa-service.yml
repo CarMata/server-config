@@ -8,9 +8,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
       
-logging:  
-  file: logs/${spring.application.name}.log
-  level:
-    com.netflix.discovery: 'OFF'
-    org.springframework.cloud: 'DEBUG'
-    com.atsistemas: 'DEBUG'  
+spring:
+  datasource:
+      platform: postgres
+      url: jdbc:postgresql://localhost:5432/dbplanilla
+      username: postgres
+      password: toor    
+      driverClassName: org.postgresql.Driver
