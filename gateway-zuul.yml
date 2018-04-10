@@ -2,6 +2,11 @@
 server:
   port: 8080
   
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  
+  
 zuul:
   routes:
     a:
@@ -20,9 +25,6 @@ zuul:
       stripPrefix: false       
     
 
-eureka:  
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+
  
 
