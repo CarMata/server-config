@@ -9,13 +9,13 @@ eureka:
 zuul:
   routes:
     a:
-      path: /test-a/**
-      serviceId: microa-service
+      path: /insert/**
+      serviceId: MICROA-SERVICE
       stripPrefix: false
       
     b:
-      path: /test-b/**
-      serviceId: microb-service
+      path: /getByNameEmployee/**
+      serviceId: MICROC-SERVICE
       stripPrefix: false
       
     c:
