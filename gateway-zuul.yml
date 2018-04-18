@@ -14,7 +14,7 @@ zuul:
       stripPrefix: false
       
     b:
-      path: /getByNameEmployee/**
+      path: /getBy/**
       serviceId: MICROC-SERVICE
       stripPrefix: false
       
