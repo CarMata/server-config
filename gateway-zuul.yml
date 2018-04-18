@@ -10,17 +10,17 @@ zuul:
   routes:
     a:
       path: /insert/**
-      serviceId: MICROA-SERVICE
+      serviceId: microa-service
       stripPrefix: false
       
     b:
-      path: /getBy/**
-      serviceId: MICROC-SERVICE
+      path: /payRolls/**
+      serviceId: microb-service
       stripPrefix: false
       
     c:
-      path: /test-c/**
-      serviceId: microb-service
+      path: /loadPayRollFromFile/**
+      serviceId: microc-service
       stripPrefix: false       
     
 
