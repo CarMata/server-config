@@ -1,0 +1,12 @@
+FormatError: Solo se admiten datos númericos enteros y en existencia.
+DataNotFound: El registro no se ha podido encontrar.
+InvalidParameter:
+DataEmpy: Se necesitan parametros para realizar la operación
+Afp1: Confia
+Afp2: Crecer
+RSTValue: 0.10
+IsssValue: 7.5
+ConfiaValue: 7.25
+CrecerValue: 7.25
+pathFile: C:/Users/HTC-CARLOS/Desktop/DemoPlanillas/document/
+dateFormat: dd/MM/yy
