@@ -15,3 +15,10 @@ spring:
       username: postgres
       password: toor    
       driverClassName: org.postgresql.Driver
+            
+values:
+    process:
+      RSTValue: 0.10
+      IsssValue: 7.5
+      ConfiaValue: 7.25
+      CrecerValue: 7.25
