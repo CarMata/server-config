@@ -22,3 +22,8 @@ values:
       IsssValue: 7.5
       ConfiaValue: 7.25
       CrecerValue: 7.25
+
+error:
+  message:
+    formatError: Solo se admiten valores numericos.
+    dataNotFound: El registro no se ha podido encontrar.
