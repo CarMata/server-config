@@ -20,18 +20,18 @@ spring:
       
       
     errorMessage: 
-        formatError: Solo se admiten valores numericos. 
-        dataNotFound: El registro no existe.
-        fileNotExist: El archivo no se encuentra.
-        invalidParameter: 
+      formatError: Solo se admiten valores numericos. 
+      dataNotFound: El registro no existe.
+      fileNotExist: El archivo no se encuentra.
+      invalidParameter: 
   
-    discountsValue: 
-        RSTDefault: 0.10
-        isssValue: 7.5
+discountsValue: 
+  RSTDefault: 0.10
+  isssValue: 7.5
   
-    uriAndPath:
-        pathFile: C:/Users/Carlos/Desktop/DemoPlanillas/document/
-        uriMicroA: http://localhost:8071/insert/
+uriAndPath:
+  pathFile: C:/Users/Carlos/Desktop/DemoPlanillas/document/
+  uriMicroA: http://localhost:8071/insert/
   
     dateFormater: 
         dateFormat: dd/MM/yy
