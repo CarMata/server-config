@@ -9,7 +9,7 @@ eureka:
 zuul:
   routes:
     a:
-      path: /insert/**
+      path: /payRolls/**
       serviceId: microa-service
       stripPrefix: false
       
@@ -19,7 +19,7 @@ zuul:
       stripPrefix: false
       
     c:
-      path: /loadPayRollFromFile/**
+      path: /payRolls/**
       serviceId: microc-service
       stripPrefix: false       
     
