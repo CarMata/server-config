@@ -21,7 +21,7 @@ zuul:
       stripPrefix: false
       
     c:
-      path: /payRolls/**
+      path: /payRolls/loadFromFile/**
       serviceId: microc-service
       stripPrefix: false       
     
