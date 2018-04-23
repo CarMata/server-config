@@ -29,7 +29,7 @@ values:
     
     address:
       pathFile: C:/Users/HTC-CARLOS/Desktop/DemoPlanillas/document/
-      uriMicroA: http://localhost:8071/insert/
+      uriMicroA: http://localhost:8071/payRolls/insert/
 
 
  
