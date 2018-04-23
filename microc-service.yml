@@ -25,6 +25,7 @@ error:
 values:    
     format:
       dateFormat: dd/MM/yy
+      fileFormat: .dat
     
     address:
       pathFile: C:/Users/HTC-CARLOS/Desktop/DemoPlanillas/document/
