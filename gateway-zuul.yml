@@ -16,7 +16,7 @@ zuul:
       stripPrefix: false
       
     b:
-      path: /payRolls/**
+      path: /payRolls/get/**
       serviceId: microb-service
       stripPrefix: false
       
