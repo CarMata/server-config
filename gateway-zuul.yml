@@ -11,7 +11,7 @@ zuul:
   routes:
   
     a:
-      path: /payRolls/**
+      path: /payRolls/insert/**
       serviceId: microa-service
       stripPrefix: false
       
@@ -21,7 +21,7 @@ zuul:
       stripPrefix: false
       
     c:
-      path: /payRolls/**
+      path: /payRolls/load/**
       serviceId: microc-service
       stripPrefix: false       
     
