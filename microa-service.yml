@@ -28,4 +28,5 @@ error:
   message:
     TypePayrollNotFoundException: Type Payroll not found type= 
     CompanyNotFoundException: company not found id=
-    EmployeeNotFoundException: Employee not found id=.
+    EmployeeNotFoundException: Employee not found id=
+    SalariNotFoundExceptin: The employee's salary is invalid salary=
