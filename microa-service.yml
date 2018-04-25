@@ -26,6 +26,6 @@ values:
 
 error:
   message:
-    formatError: Solo se admiten valores numericos.
-    dataNotFound: El registro no se ha podido encontrar.
-    success: Registros insertados con exito.
+    TypePayrollNotFoundException: Type Payroll not found type= 
+    CompanyNotFoundException: company not found id=
+    EmployeeNotFoundException: Employee not found id=.
