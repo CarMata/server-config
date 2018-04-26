@@ -30,3 +30,4 @@ error:
     CompanyNotFoundException: company not found id=
     EmployeeNotFoundException: Employee not found id=
     SalaryNotFoundException: The employee's salary is invalid salary=
+    Success: Exito!
