@@ -11,7 +11,7 @@ eureka:
 spring:
   datasource:
       platform: postgres
-      url: jdbc:postgresql://localhost:5432/dbplanilla
+      url: jdbc:postgresql://localhost:5432/dbpayroll
       username: postgres
       password: toor    
       driverClassName: org.postgresql.Driver
