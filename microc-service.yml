@@ -19,8 +19,8 @@ spring:
 
 error:
   message:
-    FormatError: Solo se admiten valores numericos.
-    DataNotFound: El registro no se ha podido encontrar.
+    FormatError: Invalid number format.
+    DataNotFound: Data not found.
     FileNotFound: File not found file=
     
 values:    
