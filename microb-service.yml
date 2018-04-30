@@ -10,7 +10,16 @@ eureka:
 spring:
   datasource:
       platform: postgres
-      url: jdbc:postgresql://localhost:5432/dbplanilla
+      url: jdbc:postgresql://localhost:5432/dbpayroll
       username: postgres
       password: toor    
       driverClassName: org.postgresql.Driver
+      
+      
+error:
+  message:
+    EmployeeNotFound: Employee not found, parameter=
+    dateNotFound: Date not found, date=
+    payrollIdNotFound: Id Payroll not found, id=
+    invalidStringFormat: Invalid String, String= 
+    invalidNumberFormat: Invalid number format, number=  
