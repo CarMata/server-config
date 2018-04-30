@@ -19,17 +19,17 @@ zuul:
   routes:
   
     a:
-      path: /payRolls/insert/**
+      path: /payroll/insert/**
       serviceId: microa-service
       stripPrefix: false
       
     b:
-      path: /payRolls/get/**
+      path: /payroll/get/**
       serviceId: microb-service
       stripPrefix: false
       
     c:
-      path: /payRolls/load/**
+      path: /payroll/load/**
       serviceId: microc-service
       stripPrefix: false       
     
