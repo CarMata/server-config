@@ -34,4 +34,9 @@ error:
     
 query:
   process:
-    getAllSalarys: select sum(accrued_salary) from payroll where date_payroll=? 
+    getTotalPayroll: 
+    getTotalsAcruedSalary: select sum(accrued_salary) from payroll where date_payroll=?
+    getTotalsDiscountAfp:
+    getTotalsDiscountIsss: 
+    getTotalsDiscountResnt: 
+    getTotalsNetSalary: 
