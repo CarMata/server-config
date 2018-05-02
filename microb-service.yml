@@ -25,3 +25,13 @@ error:
     invalidStringFormat: Invalid String, String= 
     invalidNumberFormat: Invalid number format, number=  
     success: Exito!
+
+query:
+  select:
+    selectMasterPayRollByCode: select * from masterpayroll where code=?
+  process:
+    getTotalsDiscountAfpFromMasterPayRoll:
+    getTotalsDiscountIsssFromMasterPayRoll:
+    getTotalsDiscountRentFromMasterPayRoll:
+    getTotalsDiscountsFromMasterPayRoll:
+
