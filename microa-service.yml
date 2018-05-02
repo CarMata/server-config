@@ -34,9 +34,10 @@ error:
     
 query:
   process:
-    getTotalPayroll: 
+    getTotalPayroll:  select  count(id)  from payroll where date_payroll=
     getTotalsAcruedSalary: select sum(accrued_salary) from payroll where date_payroll=?
-    getTotalsDiscountAfp:
-    getTotalsDiscountIsss: 
-    getTotalsDiscountResnt: 
-    getTotalsNetSalary: 
+    getTotalsDiscountAfp: select sum(discount_afp) from payroll where date_payroll=?
+    getTotalsDiscountIsss: select sum(discount_isss) from payroll where date_payroll=? 
+    getTotalsDiscountResnt: select sum(discount_rent) from payroll where date_payroll=? 
+    getTotalsNetSalary: select sum(total_discounts) from payroll where date_payroll=? 
+    getTotalsNetSalary: select sum(net_salary) from payroll where date_payroll=? 
