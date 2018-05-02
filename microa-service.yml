@@ -31,3 +31,7 @@ error:
     EmployeeNotFoundException: Employee not found id=
     SalaryNotFoundException: The employee's salary is invalid salary=
     Success: Exito!
+    
+query:
+  process:
+    getAllSalarys: select sum(accrued_salary) from payroll where date_payroll=? 
