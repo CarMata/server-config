@@ -18,7 +18,7 @@ spring:
       driverClassName: org.postgresql.Driver
       
   jackson:
-    time-zone: EST
+    time-zone: UTC-6
         
             
 values:
