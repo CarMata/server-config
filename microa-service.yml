@@ -31,3 +31,7 @@ error:
     EmployeeNotFoundException: Employee not found id=
     SalaryNotFoundException: The employee's salary is invalid salary=
     Success: Exito!
+        
+query:
+  process:
+    getTotalPayroll: select count(id) from payroll where date_payroll=?
