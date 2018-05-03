@@ -3,6 +3,7 @@ server:
   port: 8071   
 
 
+
 eureka:  
   client:
     serviceUrl:
@@ -15,6 +16,10 @@ spring:
       username: postgres
       password: toor    
       driverClassName: org.postgresql.Driver
+      
+  jackson:
+    time-zone: Brazil/East
+    locale=pt-BR      
             
 values:
     process:
