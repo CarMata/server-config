@@ -19,7 +19,7 @@ spring:
       
   jackson:
     time-zone: Brazil/East
-    locale=pt-BR      
+    locale: pt-BR      
             
 values:
     process:
