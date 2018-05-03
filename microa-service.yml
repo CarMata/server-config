@@ -36,3 +36,8 @@ query:
   process:
     getTotalPayroll: select count(id) from payroll where date_payroll=?
     getTotalsAcruedSalary: select sum(accrued_salary) from payroll where date_payroll=?
+    getTotalsDiscountAfp: select sum(discount_afp) from payroll where date_payroll=?
+
+
+
+
