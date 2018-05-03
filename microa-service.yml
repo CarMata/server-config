@@ -26,7 +26,7 @@ values:
 
 error:
   message:
-    TypePayrollNotFoundException: Type Payroll not found type= 
+    TypePayrollNotFoundException: Type Payroll not found type=
     CompanyNotFoundException: company not found id=
     EmployeeNotFoundException: Employee not found id=
     SalaryNotFoundException: The employee's salary is invalid salary=
@@ -37,7 +37,7 @@ query:
     getTotalPayroll: select count(id)  from payroll where date_payroll=?
     getTotalsAcruedSalary: select sum(accrued_salary) from payroll where date_payroll=?
     getTotalsDiscountAfp: select sum(discount_afp) from payroll where date_payroll=?
-    getTotalsDiscountIsss: select sum(discount_isss) from payroll where date_payroll=? 
-    getTotalsDiscountResnt: select sum(discount_rent) from payroll where date_payroll=? 
-    getTotalsNetSalary: select sum(total_discounts) from payroll where date_payroll=? 
-    getTotalsNetSalary: select sum(net_salary) from payroll where date_payroll=? 
+    getTotalsDiscountIsss: select sum(discount_isss) from payroll where date_payroll=?
+    getTotalsDiscountResnt: select sum(discount_rent) from payroll where date_payroll=?
+    getTotalsNetSalary: select sum(total_discounts) from payroll where date_payroll=?
+    getTotalsNetSalary: select sum(net_salary) from payroll where date_payroll=?
