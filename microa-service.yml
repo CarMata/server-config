@@ -18,8 +18,8 @@ spring:
       driverClassName: org.postgresql.Driver
       
   jackson:
-    time-zone: Brazil/East
-    locale: pt-BR      
+    time-zone: EST
+        
             
 values:
     process:
