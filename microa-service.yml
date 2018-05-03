@@ -38,5 +38,5 @@ query:
     getTotalsAcruedSalary: select sum(accrued_salary) from payroll where date_payroll=?
     getTotalsDiscountAfp: select sum(discount_afp) from payroll where date_payroll=?
     getTotalsDiscountIsss: select sum(discount_isss) from payroll where date_payroll=?
-    getTotalsDiscountResnt: select sum(discount_rent) from payroll where date_payroll=?
+    getTotalsDiscountRent: select sum(discount_rent) from payroll where date_payroll=?
     
