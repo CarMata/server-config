@@ -16,6 +16,8 @@ spring:
       username: postgres
       password: toor    
       driverClassName: org.postgresql.Driver
+  jackson: 
+    date-format: dd/MM/yyyy
       
 
             
